@@ -8,7 +8,7 @@ const weatherInfo = document.querySelector('.user-weather-container');
 const userInfoWeather= document.querySelector('.user-weather-container');
 
 let oldTab = userTab;
-const API_KEY = "a04b37bfcc313bcca864fa21f7c4954e";
+const API_KEY = "";
 oldTab.classList.add("current-tab");
 getfromSessionStorage();
 
