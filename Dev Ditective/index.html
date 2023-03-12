@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- fabicon icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header class="head-part">
+            <p class="hedaing">DevDetective</p>
+            <div class="mode-btn">
+                <p id="mode">Dark</p>
+                <div class="icon-container"><img id="mode-img" src="./assets/images/moon-icon.svg" alt=""></div>
+            </div>
+        </header>
+        <main class="main-section">
+            <div class="search-container">
+                <input type="search" placeholder="Enter github username here..." id="input">
+                <div class="error">
+                    <p id="notFound"></p>
+                </div>
+                <button class="search-btn" data-search>
+                    Search
+                </button>
+
+            </div>
+            <div class="user-details">
+                <div class="user-img">
+                    <img id="avatar" src="#" alt="">
+                </div>
+                <div class="user-info">
+                    <!-- section one -->
+                    <div class="section-1">
+                        <div class="name"></div>
+                        <div class="joined-date"></div>
+                    </div>
+                    <!-- section 2 -->
+                    <div class="section-2">
+                        <a class="username" href="#" target="_blank"></a>
+                    </div>
+                    <!-- section 3 -->
+                    <div class="section-3">
+                        <div class="user-bio"></div>
+                    </div>
+                    <!-- section 4 -->
+                    <div class="section-4">
+                        <div class="user-container">
+                            <div class="repos-section">
+                                <p>repos</p>
+                                <div class="repos"></div>
+                            </div>
+                            <div class="follower-section">
+                                <p>follower</p>
+                                <div class="follower"></div>
+                            </div>
+                            <div class="following-section">
+                                <p>following</p>
+                                <div class="following"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- section 5 -->
+                    <div class="section-5">
+                        <div class="profile-info">
+                            <div class="bottom-icons"><img src="./assets/images/location-icon.svg" alt=""></div>
+                            <p id="city"></p>
+                        </div>
+                        <div class="profile-info">
+                            <div class="bottom-icons"><img src="./assets/images/website-icon.svg" alt=""></div>
+                            <a href="#" id="page"></a>
+                        </div>
+                        <div class="profile-info">
+                            <div class="bottom-icons"><img src="./assets/images/twitter-icon.svg" alt=""></div>
+                            <a href="#" id="twitter"></a>
+                        </div>
+                        <div class="profile-info">
+                            <div class="bottom-icons"><img src="./assets/images/company-icon.svg" alt=""></div>
+                            <p id="company"></p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
