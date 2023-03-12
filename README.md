@@ -10,4 +10,7 @@ Portfolio
 https://helpful-kringle-c57129.netlify.app/
 
 Weather App
-https://majestic-babka-6a15e8.netlify.app/
+https://weather-app-by-aniket.netlify.app/
+
+Game - tic tac toe
+https://tic-tac-toe-by-aniket25.netlify.app/
